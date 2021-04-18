@@ -79,6 +79,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="model_duck.cpp">
+      <Filter>first\entities\source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="decoy_duck.h">
@@ -110,6 +113,9 @@
     </ClInclude>
     <ClInclude Include="squeak.h">
       <Filter>first\behavior\quack\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="model_duck.h">
+      <Filter>first\entities\headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
