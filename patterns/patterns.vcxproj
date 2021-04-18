@@ -155,6 +155,7 @@
     <ClCompile Include="duck.cpp" />
     <ClCompile Include="duck.h" />
     <ClCompile Include="fly_no_way.cpp" />
+    <ClCompile Include="fly_rocket_powered.cpp" />
     <ClCompile Include="fly_with_wings.cpp" />
     <ClCompile Include="mallard_duck.cpp" />
     <ClCompile Include="mallard_duck.h" />
@@ -170,6 +171,7 @@
     <ClInclude Include="decoy_duck.h" />
     <ClInclude Include="fly_behavior_interface.h" />
     <ClInclude Include="fly_no_way.h" />
+    <ClInclude Include="fly_rocket_powered.h" />
     <ClInclude Include="fly_with_wings.h" />
     <ClInclude Include="model_duck.h" />
     <ClInclude Include="mute_quack.h" />

@@ -82,6 +82,9 @@
     <ClCompile Include="model_duck.cpp">
       <Filter>first\entities\source</Filter>
     </ClCompile>
+    <ClCompile Include="fly_rocket_powered.cpp">
+      <Filter>first\behavior\fly\source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="decoy_duck.h">
@@ -116,6 +119,9 @@
     </ClInclude>
     <ClInclude Include="model_duck.h">
       <Filter>first\entities\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fly_rocket_powered.h">
+      <Filter>first\behavior\fly\headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
