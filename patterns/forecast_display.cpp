@@ -9,13 +9,28 @@ ForecastDisplay::ForecastDisplay(SubjectInterface* subject) : weather_data_(subj
 
 void ForecastDisplay::Update(const float temperature, const float humidity, const float pressure)
 {
-	temperature_ = temperature;
-	humidity_ = humidity;
+	last_pressure_ = current_pressure_;
+	current_pressure_ = pressure;
 
 	Display();
 }
 
 void ForecastDisplay::Display()
 {
-	std::cout << "Forecast: " << temperature_ << "F degrees and " << humidity_ << "% humidity" << std::endl;
+	std::string str = "Forecast: ";
+
+	if(current_pressure_ > last_pressure_) 
+	{
+		str += "Improving weather on the way!";
+	}
+	else if (current_pressure_ == last_pressure_)
+	{
+		str += "More of the same";
+	} 
+	else if (current_pressure_ < last_pressure_)
+	{
+		str += "Watch out for cooler, rainy weather";
+	}
+
+	std::cout << str.c_str() << std::endl;
 }

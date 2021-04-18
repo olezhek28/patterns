@@ -34,4 +34,5 @@ int main()
 	StatisticsDisplay statisticsDisplay(&weatherData);
 
 	weatherData.set_measurements(80, 65, 30.4f);
+	weatherData.set_measurements(20, 65, 30.4f);
 }

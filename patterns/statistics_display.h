@@ -14,6 +14,8 @@ public:
 
 private:
 	SubjectInterface* weather_data_;
-	float temperature_ = 0;
-	float humidity_ = 0;
+	float max_temperature_ = 0.0f;
+	float min_temperature_ = 200;
+	float temperature_sum_ = 0.0f;
+	int num_readings_ = 0;
 };

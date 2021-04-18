@@ -14,6 +14,6 @@ public:
 
 private:
 	SubjectInterface* weather_data_;
-	float temperature_ = 0;
-	float humidity_ = 0;
+	float current_pressure_ = 29.92f;
+	float last_pressure_;
 };
