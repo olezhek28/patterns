@@ -5,123 +5,180 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="strategy">
+    <Filter Include="Strategy">
       <UniqueIdentifier>{ce65e4f0-b9f4-4dfe-aa8b-c6f27044711e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\behavior">
+    <Filter Include="Strategy\Behavior">
       <UniqueIdentifier>{9c992bc0-761b-4fe6-94a7-6d43b8296015}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\behavior\fly">
+    <Filter Include="Strategy\Behavior\Fly">
       <UniqueIdentifier>{87165698-042f-4c11-a5c6-d653fba6040e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\behavior\fly\headers">
+    <Filter Include="Strategy\Behavior\Fly\Header Files">
       <UniqueIdentifier>{37cfa47c-446d-4275-80cb-5cd6bdb7e60d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\behavior\fly\source">
+    <Filter Include="Strategy\Behavior\Fly\Source Files">
       <UniqueIdentifier>{efe55598-e66e-48b1-982a-f12ec1b20683}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\behavior\quack">
+    <Filter Include="Strategy\Behavior\Quack">
       <UniqueIdentifier>{6489eedc-e0f8-482e-bd4f-3b4c7b815b2e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\behavior\quack\headers">
+    <Filter Include="Strategy\Behavior\Quack\Header Files">
       <UniqueIdentifier>{3914ea4e-e469-48e8-a40d-8b11367b5045}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\behavior\quack\source">
+    <Filter Include="Strategy\Behavior\Quack\Source Files">
       <UniqueIdentifier>{f2c4a52f-f2f8-4ad2-b5c0-63cb82d63026}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\entities">
+    <Filter Include="Strategy\Entities">
       <UniqueIdentifier>{d558e7c4-76a5-4b01-9ef5-b9083c6fe1df}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\entities\headers">
+    <Filter Include="Strategy\Entities\Header Files">
       <UniqueIdentifier>{fde1e690-53fe-4b6c-9bea-e2e468f2e168}</UniqueIdentifier>
     </Filter>
-    <Filter Include="strategy\entities\source">
+    <Filter Include="Strategy\Entities\Source Files">
       <UniqueIdentifier>{d972ff72-7163-4760-8acb-da39f349730f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer">
+      <UniqueIdentifier>{f3cdfa41-b6e1-4eb4-ba18-c62c23b1052a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\Subject">
+      <UniqueIdentifier>{2ccc1a3f-72fc-4136-97be-2d0a80da200f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\Subject\Header Files">
+      <UniqueIdentifier>{42d91194-d048-4eec-9290-ad4de707e07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\Subject\Source Files">
+      <UniqueIdentifier>{9e44edaa-5eed-4aad-adb8-f1f32aebcc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\Object">
+      <UniqueIdentifier>{66896e0a-07f5-4869-ae27-bbea4e7b5e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\Object\Header Files">
+      <UniqueIdentifier>{cdc1efb8-4b9d-456d-a42f-637a138238dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\Object\Source Files">
+      <UniqueIdentifier>{fa3adafc-ade9-466f-94a7-94cc49ecd217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\Display">
+      <UniqueIdentifier>{352179fa-9c4b-4c45-8955-206a9de281ac}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mallard_duck.h">
-      <Filter>strategy\entities\headers</Filter>
+      <Filter>Strategy\Entities\Header Files</Filter>
     </ClCompile>
     <ClCompile Include="decoy_duck.cpp">
-      <Filter>strategy\entities\source</Filter>
+      <Filter>Strategy\Entities\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mallard_duck.cpp">
-      <Filter>strategy\entities\source</Filter>
+      <Filter>Strategy\Entities\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="redhead_duck.cpp">
-      <Filter>strategy\entities\source</Filter>
+      <Filter>Strategy\Entities\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="rubber_duck.cpp">
-      <Filter>strategy\entities\source</Filter>
+      <Filter>Strategy\Entities\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="duck.cpp">
-      <Filter>strategy\entities</Filter>
+      <Filter>Strategy\Entities</Filter>
     </ClCompile>
     <ClCompile Include="duck.h">
-      <Filter>strategy\entities</Filter>
+      <Filter>Strategy\Entities</Filter>
     </ClCompile>
     <ClCompile Include="fly_no_way.cpp">
-      <Filter>strategy\behavior\fly\source</Filter>
+      <Filter>Strategy\Behavior\Fly\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="fly_with_wings.cpp">
-      <Filter>strategy\behavior\fly\source</Filter>
+      <Filter>Strategy\Behavior\Fly\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mute_quack.cpp">
-      <Filter>strategy\behavior\quack\source</Filter>
+      <Filter>Strategy\Behavior\Quack\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="quack.cpp">
-      <Filter>strategy\behavior\quack\source</Filter>
+      <Filter>Strategy\Behavior\Quack\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="squeak.cpp">
-      <Filter>strategy\behavior\quack\source</Filter>
+      <Filter>Strategy\Behavior\Quack\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="model_duck.cpp">
-      <Filter>strategy\entities\source</Filter>
+      <Filter>Strategy\Entities\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="fly_rocket_powered.cpp">
-      <Filter>strategy\behavior\fly\source</Filter>
+      <Filter>Strategy\Behavior\Fly\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subject_interface.h">
+      <Filter>Observer\Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="weather_data.cpp">
+      <Filter>Observer\Subject\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="current_conditions_display.cpp">
+      <Filter>Observer\Object\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics_display.cpp">
+      <Filter>Observer\Object\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forecast_display.cpp">
+      <Filter>Observer\Object\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="decoy_duck.h">
-      <Filter>strategy\entities\headers</Filter>
+      <Filter>Strategy\Entities\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="redhead_duck.h">
-      <Filter>strategy\entities\headers</Filter>
+      <Filter>Strategy\Entities\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="rubber_duck.h">
-      <Filter>strategy\entities\headers</Filter>
+      <Filter>Strategy\Entities\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="fly_behavior_interface.h">
-      <Filter>strategy\behavior</Filter>
+      <Filter>Strategy\Behavior</Filter>
     </ClInclude>
     <ClInclude Include="quack_behavior_interface.h">
-      <Filter>strategy\behavior</Filter>
+      <Filter>Strategy\Behavior</Filter>
     </ClInclude>
     <ClInclude Include="fly_no_way.h">
-      <Filter>strategy\behavior\fly\headers</Filter>
+      <Filter>Strategy\Behavior\Fly\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="fly_with_wings.h">
-      <Filter>strategy\behavior\fly\headers</Filter>
+      <Filter>Strategy\Behavior\Fly\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mute_quack.h">
-      <Filter>strategy\behavior\quack\headers</Filter>
+      <Filter>Strategy\Behavior\Quack\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="quack.h">
-      <Filter>strategy\behavior\quack\headers</Filter>
+      <Filter>Strategy\Behavior\Quack\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="squeak.h">
-      <Filter>strategy\behavior\quack\headers</Filter>
+      <Filter>Strategy\Behavior\Quack\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="model_duck.h">
-      <Filter>strategy\entities\headers</Filter>
+      <Filter>Strategy\Entities\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="fly_rocket_powered.h">
-      <Filter>strategy\behavior\fly\headers</Filter>
+      <Filter>Strategy\Behavior\Fly\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object_interface.h">
+      <Filter>Observer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="weather_data.h">
+      <Filter>Observer\Subject\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="current_conditions_display.h">
+      <Filter>Observer\Object\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display_interface.h">
+      <Filter>Observer\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="statistics_display.h">
+      <Filter>Observer\Object\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="forecast_display.h">
+      <Filter>Observer\Object\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

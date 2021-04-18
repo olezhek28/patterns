@@ -151,12 +151,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="current_conditions_display.cpp" />
     <ClCompile Include="decoy_duck.cpp" />
     <ClCompile Include="duck.cpp" />
     <ClCompile Include="duck.h" />
     <ClCompile Include="fly_no_way.cpp" />
     <ClCompile Include="fly_rocket_powered.cpp" />
     <ClCompile Include="fly_with_wings.cpp" />
+    <ClCompile Include="forecast_display.cpp" />
     <ClCompile Include="mallard_duck.cpp" />
     <ClCompile Include="mallard_duck.h" />
     <ClCompile Include="model_duck.cpp" />
@@ -166,20 +168,29 @@
     <ClCompile Include="redhead_duck.cpp" />
     <ClCompile Include="rubber_duck.cpp" />
     <ClCompile Include="squeak.cpp" />
+    <ClCompile Include="statistics_display.cpp" />
+    <ClCompile Include="subject_interface.h" />
+    <ClCompile Include="weather_data.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="current_conditions_display.h" />
     <ClInclude Include="decoy_duck.h" />
+    <ClInclude Include="display_interface.h" />
     <ClInclude Include="fly_behavior_interface.h" />
     <ClInclude Include="fly_no_way.h" />
     <ClInclude Include="fly_rocket_powered.h" />
     <ClInclude Include="fly_with_wings.h" />
+    <ClInclude Include="forecast_display.h" />
     <ClInclude Include="model_duck.h" />
     <ClInclude Include="mute_quack.h" />
+    <ClInclude Include="object_interface.h" />
     <ClInclude Include="quack.h" />
     <ClInclude Include="quack_behavior_interface.h" />
     <ClInclude Include="redhead_duck.h" />
     <ClInclude Include="rubber_duck.h" />
     <ClInclude Include="squeak.h" />
+    <ClInclude Include="statistics_display.h" />
+    <ClInclude Include="weather_data.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
