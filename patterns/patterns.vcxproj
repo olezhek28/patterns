@@ -159,6 +159,7 @@
     <ClCompile Include="fly_rocket_powered.cpp" />
     <ClCompile Include="fly_with_wings.cpp" />
     <ClCompile Include="forecast_display.cpp" />
+    <ClCompile Include="heat_index_display.cpp" />
     <ClCompile Include="mallard_duck.cpp" />
     <ClCompile Include="mallard_duck.h" />
     <ClCompile Include="model_duck.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="fly_rocket_powered.h" />
     <ClInclude Include="fly_with_wings.h" />
     <ClInclude Include="forecast_display.h" />
+    <ClInclude Include="heat_index_display.h" />
     <ClInclude Include="model_duck.h" />
     <ClInclude Include="mute_quack.h" />
     <ClInclude Include="object_interface.h" />

@@ -8,6 +8,9 @@
 #include "current_conditions_display.h"
 #include "forecast_display.h"
 #include "statistics_display.h"
+#include "heat_index_display.h"
+
+#include <iostream>
 
 int main()
 {
@@ -32,7 +35,9 @@ int main()
 	CurrentConditionsDisplay currentDisplay(&weatherData);
 	ForecastDisplay forecastDisplay(&weatherData);
 	StatisticsDisplay statisticsDisplay(&weatherData);
+	HeatIndexDisplay heatIndexDisplay(&weatherData);
 
 	weatherData.set_measurements(80, 65, 30.4f);
+	std::cout << std::endl;
 	weatherData.set_measurements(20, 65, 30.4f);
 }

@@ -124,6 +124,9 @@
     <ClCompile Include="forecast_display.cpp">
       <Filter>Observer\Object\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="heat_index_display.cpp">
+      <Filter>Observer\Object\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="decoy_duck.h">
@@ -178,6 +181,9 @@
       <Filter>Observer\Object\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="forecast_display.h">
+      <Filter>Observer\Object\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heat_index_display.h">
       <Filter>Observer\Object\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
