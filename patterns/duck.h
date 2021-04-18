@@ -11,7 +11,10 @@ public:
 	void PerformFly() const;
 	void PerformQuack() const;
 	void Swim() const;
-	
+
+	void set_fly_behavior(std::unique_ptr<FlyBehaviorInterface> fb);
+	void set_quack_behavior(std::unique_ptr<QuackBehaviorInterface> qb);
+
 	virtual void Display() = 0;
 	
 

@@ -159,7 +159,7 @@
     <ClCompile Include="mallard_duck.cpp" />
     <ClCompile Include="mallard_duck.h" />
     <ClCompile Include="mute_quack.cpp" />
-    <ClCompile Include="patterns.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="quack.cpp" />
     <ClCompile Include="redhead_duck.cpp" />
     <ClCompile Include="rubber_duck.cpp" />
