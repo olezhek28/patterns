@@ -16,7 +16,6 @@ public:
 	void set_quack_behavior(std::unique_ptr<QuackBehaviorInterface> qb);
 
 	virtual void Display() = 0;
-	
 
 protected:
 	std::unique_ptr<FlyBehaviorInterface> fly_behavior_;
